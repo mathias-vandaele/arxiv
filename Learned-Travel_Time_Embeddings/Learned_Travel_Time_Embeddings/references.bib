@@ -1,0 +1,224 @@
+% =====================================================================
+%  references.bib — bibliography for "Learned Travel-Time Embeddings"
+%
+%  All 13 entries verified against canonical publisher sources
+%  (ACM DL, IEEE Xplore, OpenReview, NeurIPS proceedings, arXiv, dblp)
+%  in April 2026. Each entry includes a DOI where one exists and
+%  an arXiv eprint ID where available. The style \bibliographystyle{plain}
+%  ignores DOIs and URLs; switch to {plainurl} (from biblatex) or use
+%  the `hyperref` package to render them as clickable links.
+%
+%  Compile order:
+%    pdflatex travel_time_embeddings.tex
+%    bibtex   travel_time_embeddings
+%    pdflatex travel_time_embeddings.tex
+%    pdflatex travel_time_embeddings.tex
+%  On Overleaf / latexmk, a single "Recompile" does all of this.
+% =====================================================================
+
+
+% ---------------------------------------------------------------------
+%  Graph-based routing
+% ---------------------------------------------------------------------
+
+@inproceedings{luxen2011osrm,
+  author    = {Luxen, Dennis and Vetter, Christian},
+  title     = {Real-time routing with {OpenStreetMap} data},
+  booktitle = {Proceedings of the 19th ACM SIGSPATIAL International
+               Conference on Advances in Geographic Information Systems
+               (GIS '11)},
+  series    = {GIS '11},
+  year      = {2011},
+  pages     = {513--516},
+  numpages  = {4},
+  isbn      = {978-1-4503-1031-4},
+  location  = {Chicago, Illinois},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/2093973.2094062},
+  url       = {https://doi.org/10.1145/2093973.2094062}
+}
+
+@misc{valhalla,
+  author       = {{Valhalla Project Contributors}},
+  title        = {{Valhalla}: Open-source routing engine for {OpenStreetMap}},
+  howpublished = {\url{https://valhalla.github.io/valhalla/}},
+  year         = {2026},
+  note         = {Accessed: 2026-04-14}
+}
+
+
+% ---------------------------------------------------------------------
+%  Learned ETA
+% ---------------------------------------------------------------------
+
+@inproceedings{derrow2021eta,
+  author    = {Derrow-Pinion, Austin and She, Jennifer and Wong, David
+               and Lange, Oliver and Hester, Todd and Perez, Luis and
+               Nunkesser, Marc and Lee, Seongjae and Guo, Xueying and
+               Wiltshire, Brett and Battaglia, Peter W. and
+               Gupta, Vishal and Li, Ang and Xu, Zhongwen and
+               Sanchez-Gonzalez, Alvaro and Li, Yujia and
+               Veli{\v{c}}kovi{\'c}, Petar},
+  title     = {{ETA} Prediction with Graph Neural Networks in
+               {Google Maps}},
+  booktitle = {Proceedings of the 30th ACM International Conference on
+               Information \& Knowledge Management (CIKM '21)},
+  year      = {2021},
+  pages     = {3767--3776},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {10.1145/3459637.3481916},
+  url       = {https://doi.org/10.1145/3459637.3481916}
+}
+
+
+% ---------------------------------------------------------------------
+%  Metric embeddings / representation learning
+% ---------------------------------------------------------------------
+
+@inproceedings{hadsell2006dimensionality,
+  author    = {Hadsell, Raia and Chopra, Sumit and LeCun, Yann},
+  title     = {Dimensionality Reduction by Learning an Invariant Mapping},
+  booktitle = {Proceedings of the 2006 IEEE Computer Society Conference
+               on Computer Vision and Pattern Recognition (CVPR '06)},
+  year      = {2006},
+  volume    = {2},
+  pages     = {1735--1742},
+  publisher = {IEEE Computer Society},
+  isbn      = {0-7695-2597-0},
+  doi       = {10.1109/CVPR.2006.100},
+  url       = {https://doi.org/10.1109/CVPR.2006.100}
+}
+
+@inproceedings{schroff2015facenet,
+  author    = {Schroff, Florian and Kalenichenko, Dmitry and
+               Philbin, James},
+  title     = {{FaceNet}: A Unified Embedding for Face Recognition and
+               Clustering},
+  booktitle = {Proceedings of the IEEE Conference on Computer Vision
+               and Pattern Recognition (CVPR)},
+  year      = {2015},
+  pages     = {815--823},
+  publisher = {IEEE Computer Society},
+  isbn      = {978-1-4673-6964-0},
+  doi       = {10.1109/CVPR.2015.7298682},
+  url       = {https://doi.org/10.1109/CVPR.2015.7298682}
+}
+
+@inproceedings{rizi2018shortest,
+  author    = {Salehi Rizi, Fatemeh and Schl{\"o}tterer, J{\"o}rg and
+               Granitzer, Michael},
+  title     = {Shortest Path Distance Approximation Using Deep Learning
+               Techniques},
+  booktitle = {Proceedings of the 2018 IEEE/ACM International Conference
+               on Advances in Social Networks Analysis and Mining
+               (ASONAM '18)},
+  year      = {2018},
+  pages     = {1007--1014},
+  publisher = {IEEE},
+  url       = {https://arxiv.org/abs/2002.05257}
+}
+
+
+% ---------------------------------------------------------------------
+%  Coordinate / Fourier feature encodings
+% ---------------------------------------------------------------------
+
+@inproceedings{tancik2020fourier,
+  author    = {Tancik, Matthew and Srinivasan, Pratul P. and
+               Mildenhall, Ben and Fridovich-Keil, Sara and
+               Raghavan, Nithin and Singhal, Utkarsh and
+               Ramamoorthi, Ravi and Barron, Jonathan T. and Ng, Ren},
+  title     = {Fourier Features Let Networks Learn High Frequency
+               Functions in Low Dimensional Domains},
+  booktitle = {Advances in Neural Information Processing Systems 33
+               (NeurIPS 2020)},
+  year      = {2020},
+  pages     = {7537--7547},
+  publisher = {Curran Associates, Inc.},
+  url       = {https://arxiv.org/abs/2006.10739}
+}
+
+@inproceedings{mai2020space2vec,
+  author    = {Mai, Gengchen and Janowicz, Krzysztof and Yan, Bo and
+               Zhu, Rui and Cai, Ling and Lao, Ni},
+  title     = {Multi-Scale Representation Learning for Spatial Feature
+               Distributions using Grid Cells},
+  booktitle = {International Conference on Learning Representations
+               (ICLR 2020)},
+  year      = {2020},
+  note      = {Spotlight},
+  url       = {https://openreview.net/forum?id=rJljdh4KDH}
+}
+
+
+% ---------------------------------------------------------------------
+%  Hyperbolic geometry
+% ---------------------------------------------------------------------
+
+@inproceedings{nickel2017poincare,
+  author    = {Nickel, Maximilian and Kiela, Douwe},
+  title     = {{Poincar\'e} Embeddings for Learning Hierarchical
+               Representations},
+  booktitle = {Advances in Neural Information Processing Systems 30
+               (NeurIPS 2017)},
+  year      = {2017},
+  pages     = {6338--6347},
+  publisher = {Curran Associates, Inc.},
+  url       = {https://arxiv.org/abs/1705.08039}
+}
+
+@inproceedings{ganea2018hyperbolic,
+  author    = {Ganea, Octavian-Eugen and B{\'e}cigneul, Gary and
+               Hofmann, Thomas},
+  title     = {Hyperbolic Neural Networks},
+  booktitle = {Advances in Neural Information Processing Systems 31
+               (NeurIPS 2018)},
+  year      = {2018},
+  pages     = {5350--5360},
+  publisher = {Curran Associates, Inc.},
+  url       = {https://arxiv.org/abs/1805.09112}
+}
+
+
+% ---------------------------------------------------------------------
+%  Monotonic networks
+% ---------------------------------------------------------------------
+
+@article{daniels2010monotone,
+  author    = {Daniels, Hennie and Velikova, Marina},
+  title     = {Monotone and Partially Monotone Neural Networks},
+  journal   = {IEEE Transactions on Neural Networks},
+  volume    = {21},
+  number    = {6},
+  year      = {2010},
+  pages     = {906--917},
+  publisher = {IEEE},
+  doi       = {10.1109/TNN.2010.2044803},
+  url       = {https://doi.org/10.1109/TNN.2010.2044803}
+}
+
+@inproceedings{wehenkel2019umnn,
+  author    = {Wehenkel, Antoine and Louppe, Gilles},
+  title     = {Unconstrained Monotonic Neural Networks},
+  booktitle = {Advances in Neural Information Processing Systems 32
+               (NeurIPS 2019)},
+  year      = {2019},
+  pages     = {1545--1555},
+  publisher = {Curran Associates, Inc.},
+  url       = {https://arxiv.org/abs/1908.05164}
+}
+
+
+% ---------------------------------------------------------------------
+%  Software artefacts by the author
+% ---------------------------------------------------------------------
+
+@misc{ringdb,
+  author       = {Vandaele, Mathias},
+  title        = {{RingDB}: A brute-force vector database for ring queries},
+  year         = {2026},
+  howpublished = {\url{https://github.com/mathias-vandaele/ring-db}},
+  note         = {Accessed: 2026-04-14}
+}
